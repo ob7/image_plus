@@ -1,0 +1,16 @@
+$radius: 32px;
+$transition: all .5s ease-in-out;
+
+a.archebian-image {
+	display: inline-block;
+}
+.archebian-image {
+	border-radius: $radius;
+	text-align: center;
+	img {
+		border-radius: $radius;
+	}
+	.archebian-image-content {
+		padding: 16px 0;
+	}
+}

@@ -1,0 +1,12 @@
+a.archebian-image {
+  display: inline-block; }
+
+.archebian-image {
+  border-radius: 32px;
+  text-align: center; }
+  .archebian-image img {
+    border-radius: 32px; }
+  .archebian-image .archebian-image-content {
+    padding: 16px 0; }
+
+/*# sourceMappingURL=view.css.map */
