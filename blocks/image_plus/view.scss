@@ -1,3 +1,4 @@
+$blue: #122079;
 $radius: 32px;
 $transition: all .5s ease-in-out;
 
@@ -7,10 +8,23 @@ a.archebian-image {
 .archebian-image {
 	border-radius: $radius;
 	text-align: center;
+  display: block;
+  position: relative;
+  text-align: center;
 	img {
 		border-radius: $radius;
 	}
 	.archebian-image-content {
-		padding: 16px 0;
+		padding: 16px 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba($blue, 0.70);
+    color: #FFF;
+    border-radius: 0 0 32px 32px;
+    p,h1,h2,h3,h4,h5,h6,a,span {
+        color: #FFF;
+    }
 	}
 }

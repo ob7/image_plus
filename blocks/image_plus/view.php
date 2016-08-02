@@ -1,7 +1,7 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
 $ih = Core::make('helper/image');
 if (is_object($f) && $f->getFileID()) {
-	$thumb = $ih->getThumbnail($f, 264, 271, true);
+	$thumb = $ih->getThumbnail($f, 640, 480, true);
 }
 ?>
 
